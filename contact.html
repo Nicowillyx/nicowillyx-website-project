@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicowillyx | Contact</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo-area">
+            <img src="images/nxw-logo.png" alt="Nicowillyx Logo" class="logo">
+            <div>
+                <h1>Nicowillyx</h1>
+                <p class="slogan">Creative Digital Solutions</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="profile.html">Profile</a>
+            <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <h2>Contact Nicowillyx</h2>
+        </section>
+
+        <section>
+            <h2>Get in Touch</h2>
+            <p>
+                Have a question or need a service? Fill in the form below and we’ll get back to you.
+            </p>
+        </section>
+
+        <!-- Contact Form -->
+        <section>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="service">Select Service:</label>
+                <select id="service" name="service" required>
+                    <option value="">-- Choose a service --</option>
+                    <option value="web">Web Design</option>
+                    <option value="graphic">Graphic Design</option>
+                    <option value="branding">Branding</option>
+                    <option value="consultation">Consultation</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
+
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear</button>
+            </form>
+        </section>
+
+        <!-- Contact Info -->
+        <section>
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong>
+                <a href="mailto:nicowillyx19@gmail.com">nicowillyx19@gmail.com</a>
+            </p>
+            <p><strong>Phone:</strong> +234 802 722 5430</p>
+        </section>
+
+        <!-- Map -->
+        <section>
+            <h2>Our Location</h2>
+            <iframe
+                class="map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.6850531337195!2d3.1685260744813895!3d6.68587952125614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9ed1d9a107f3%3A0x3d6834c7aade2faf!2sBells%20University%20of%20Technology!5e0!3m2!1sen!2sng!4v1768370396893!5m2!1sen!2sng"
+                loading="lazy">
+            </iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nicowillyx. All rights reserved.</p>
+    </footer>
+
+    <!-- External JS -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
